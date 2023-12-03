@@ -1,0 +1,94 @@
+:root {
+    --black: #49444C;
+    --baby-pink: #FFC8DD;
+    --green: #CEEDC7;
+    --pink: #FF9494;
+    --orange: #FFD4B2;
+    --yelow: #FFF6BD;
+    --blue: #D7E3FC;
+    --purple: #9C89B8;
+}
+
+body {
+    background-color: white;
+    font-family: "Plus Jakarta Sans";
+    color: var(--black);
+}
+
+.add-task-section{
+    margin: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    border: 1.6px solid var(--purple);
+    width: 232px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+}
+
+.list-section {
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list-item {
+    margin: 25px 2px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.complete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 3px solid var(--orange);
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+}
+
+.complete-button.marked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+    border: var(--orange);
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+    width: 226px;
+    height: 33px;
+    border-radius: 8px;
+}
+
+.task-name {
+    display: flex;
+    justify-content: center;
+}
